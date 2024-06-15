@@ -1,0 +1,55 @@
+/* Header Styles */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: grey;
+}
+
+#bodyy {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.title4 {
+    margin-left: 10px;
+}

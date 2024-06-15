@@ -1,0 +1,12 @@
+#comp {
+    border: 1px solid black;
+    width: 25%;
+    border-radius: 20px;
+}
+
+#remove {
+    border-radius: 20px;
+    margin-left: 0px;
+    border: 0.5px solid black;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+}

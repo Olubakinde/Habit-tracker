@@ -1,0 +1,37 @@
+/* styles.css */
+#name {
+    font-family: Arial, sans-serif;
+    /* font-size: 20px; */
+    font-weight: bold;
+    color: #333;
+}
+
+#inside {
+    background-color: red;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+}
+
+#display {
+    background-color: rgb(245, 244, 244);
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+#color {
+    text-align: center;
+}
+
+/* Optional: Add hover effect */
+#display:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}

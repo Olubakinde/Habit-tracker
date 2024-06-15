@@ -1,0 +1,84 @@
+#display {
+    background-color: rgb(245, 244, 244);
+    border-radius: 30px;
+    width: 80%;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+    border: solid 2px black;
+    padding: 20px;
+}
+
+button {
+    padding: 3px 3px;
+    margin-right: 14px;
+    cursor: pointer;
+    border: 3px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input and Button Styles */
+input[type="text"],
+input[type="number"] {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(21, 20, 20);
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Additional Styles */
+#textt {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#flex {
+    display: flex;
+}
+
+/* Tracker Styles */
+#tracker {
+    flex: 1; /* Take up remaining space */
+    margin-right: 20px; /* Add some space between the two divs */
+}
+
+/* Graph Styles */
+#graphh {
+    flex: 1;
+}
+
+#tracker {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+#habittt {
+    border: 1px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 10px 15px 10px rgba(0, 0, 0, 0.1);
+}
